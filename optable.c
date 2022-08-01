@@ -383,7 +383,5 @@ int32_t opcode(char *memory,inst_t *inst){
 
 	}
 
-	//printf("m1: %hhu m2: %hhu m3: %hhu\n",memory[0],memory[1],memory[2]);
-
 	return byte;
 }
