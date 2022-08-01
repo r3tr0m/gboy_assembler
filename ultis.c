@@ -69,12 +69,6 @@ asm_t* load_code(char *target){
 
 //CHECKSUM
 
-#include <stdio.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <stdint.h>
-
 int32_t hash(char *code){
 
         uint32_t hash   = 0;
