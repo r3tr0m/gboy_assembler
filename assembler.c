@@ -32,7 +32,6 @@ inst_t* lexar(char *line){
 	while( (line[inc] != '\x0a') || (line[inc] == ';') )
 	{
 
-
 		for(uint8_t byte=0; byte < 18; byte++)
 		{
 
